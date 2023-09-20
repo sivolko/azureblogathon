@@ -2,25 +2,29 @@
 
 Enabling DevSecops best practices with Github Actions and GHSA (Github Advance security) with Azure.
 
-Tabel of Content :
+Table of Content : 
 
-1. Devops with GitHub action 
+1. DevOps with GitHub action 
+
 2. DevOps challenges 
+
 3. Architecture 
-4. Github Advance security features and code & secrets scanning 
+
+4. GitHub Advance security features and code & secrets scanning 
 
 Before starting let's undestand a terms like What exactly is **Devops** and why do we need it? 
 
-Answer : Devops is a methodology in the software development and IT industry used as a set of practice and tools.It is made of two words Dev which means Developer and Ops means Operations
+Answer : Devops is a methodology in the software development and IT industry used as a set of practice and tools. It is made of two words Dev which means Developer and Ops means Operations
 
-We practice Devops in organisation for 
-* improved quality of deployed applications
+We practice Devops in organisation for
+
+* improved quality of deployed applications 
 * Faster deployment cycle 
 * faster release cycle 
 
 What is DevSecops? 
 
-Security practioners with Devops metholody is known as devsecops. now we do talk about shift left which means during each stage of code/ software development we are enabling security best practices to avoid future shortcomes.
+Security practitioners with Devops methodology is known as devsecops. now we do talk about shift left which means during each stage of code/ software development we are enabling security best practices to avoid future short-comes. 
 
 **GitHub Actions**: Aka A Github way to do Devops 
 
@@ -37,15 +41,15 @@ Security practioners with Devops metholody is known as devsecops. now we do talk
 
 we can integrate directly with IDE or Azure DevOps .It comes with the following features 
 
-* It helps us to deploy any language framework , any application to Azure directly from VS code / Visual studio code.
-* It's simpler to use for various Azure Resources App service, AKS , Key Vault etc..
+* It helps us to deploy any language framework , any application to Azure directly from VS code / Visual studio code. 
+* It’s simpler to use for various Azure Resources App service, AKS , Key Vault etc.. .
 * It brings together strength of GitHub and Azure 
 
 Diagram :-
 
 ![Alt text](image-1.png)
 
-**How to start with GitHub actiosn**
+**How to start with GitHub action**
 
 There are multiple ways to start 
 
@@ -63,11 +67,11 @@ There are multiple ways to start
 **A few DevOps challenges**
 
  - Speed and Innovation : code to cloud Automation 
- - Security: "Shift left" & prevent vulnerabillities in source code before they are deployed into production 
+ - Security: "Shift left" & prevent Vulnerability  in source code before they are deployed into production 
  - Compliance : Policy as Code 
- - Governance : Audit and Tracebility 
+ - Governance : Audit and Traceability
 
- SDLC Architeure :-
+ SDLC Architecture :-
 
  ![Alt text](image-4.png)
 
@@ -193,7 +197,7 @@ After successful deployment it'll create AKS on azure
 
 ## Now Let's jump over the Github Advance Security (GHAS) : Shift Left 
 
-GHAS is a suite of tools that helps to scan code vulnerabilities, Secretes scanning while every commits.It helps to keep organisation shift left methodology in practice.
+GHAS is a suite of tools that helps to scan code Vulnerability , Secretes scanning while every commits.It helps to keep organisation shift left methodology in practice.
 
 It can be helpful in many ways: 
 
@@ -209,7 +213,7 @@ eg: Log4j Year 2021
 GitHub provides automated features that flags vulnerable dependencies
 Alert to the specific Team member mentioning potential dangers
 Helps in Vulnerability mitigation
-Automate the process that monitors and secures project dependencies and searches for vulnerabilities
+Automate the process that monitors and secures project dependencies and searches for Vulnerability 
 
 ![Alt text](image-7.png)
 
